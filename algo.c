@@ -6,7 +6,7 @@
 int sum_diagonal(int arr[N][M]) {
     int sum = 0;
     for (int i = 0; i < N; i++) {
-        sum += arr[i][i];   // جمع عناصر القطر الرئيسي
+        sum += arr[i][i];  
     }
     return sum;
 }
