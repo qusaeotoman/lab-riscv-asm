@@ -27,5 +27,8 @@ loop:
     j loop
 
 end:
-  
+   mv a0, t2
+   li a7, 1
+    ecall
+    
     nop
